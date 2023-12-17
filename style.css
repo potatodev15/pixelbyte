@@ -310,11 +310,19 @@ a {
     font-weight: bold;
 }
 
-.card-container:hover .info-container > a {
+.card-container:nth-child(1):hover .info-container > a {
     color: yellow;
     font-weight: bold;
 }
 
+.card-container:nth-child(2):hover .info-container a {
+    color: black;
+}
+
+.card-container:nth-child(3):hover .info-container > a {
+    color: yellow;
+    font-weight: bold;
+}
 
 /* About Us Section Start */
 
