@@ -38,7 +38,7 @@
 
 * {
     scroll-behavior: smooth;
-
+    scroll-snap-type: x mandatory;
 }
 
 body { margin: 0; font-family: 'Montserrat', sans-serif; color: black;}
@@ -461,7 +461,7 @@ input[type="text"] {
 
 .contact {
     background-color: #212121;
-    height: 80vh;
+    height: 90vh;
     width: 100%;
 }
 
